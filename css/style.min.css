@@ -5,8 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
+  --blue: #0c3b9a;
+  --indigo: #0c3b9a;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
@@ -18,10 +18,10 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #2878eb;
+  --primary: #0c3b9a;
   --secondary: #f14d5d;
   --success: #28a745;
-  --info: #17a2b8;
+  --info: #0c3b9a;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #ecf4ff;
@@ -76,6 +76,9 @@ body {
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
+}
+.penas {
+  color: #0c3b9a;
 }
 hr {
   box-sizing: content-box;
@@ -151,12 +154,12 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #2878eb;
+  color: #0c3b9a;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #1154b6;
+  color: #0c3b9a;
   text-decoration: underline;
 }
 a:not([href]):not([class]) {
